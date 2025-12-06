@@ -93,86 +93,132 @@
 								This tools were used to Query, Manipulate and visualize data.
 								Please click on each project for more.</p>
 
-							<div class="row">
-								<div class="col-4 col-12-mobile">
-									<article class="item">
-										<a href="https://github.com/Temple712/My-projects" class="image fit"><img src="images/pic04.png" alt="" /></a>
-										<header>
-											<h3>Databricks / Machine Learning Project</h3>
-											<p>My GitHub showcases Machine learning and Databricks projects that highlight my skills in data cleaning, manipulation, analysis, and building efficient workflows to turn raw data into insights.
+							<style>
+    .projects-grid {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 20px;
+    }
+
+    @media (max-width: 768px) {
+        .projects-grid {
+            grid-template-columns: 1fr;
+        }
+    }
+</style>
+
+<div class="projects-grid">
+
+    <!-- 1. Databricks / Machine Learning Project -->
+    <article class="item">
+        <a href="https://github.com/Temple712/My-projects" class="image fit"><img src="images/pic04.png" alt="" /></a>
+        <header>
+            <h3>Databricks / Machine Learning Project</h3>
+            <p>My GitHub showcases Machine learning and Databricks projects that highlight my skills in data cleaning, manipulation, analysis, and building efficient workflows to turn raw data into insights.
 These projects also demonstrate my ability to develop and deploy machine learning models to solve real-world problems.</p>
-										</header>
-									</article>
-									<article class="item">
-										<a href="https://youtu.be/2M-A26D_1wY" class="image fit"><img src="images/top11.jpg" alt="" /></a>
-										<header>
-											<h3>Youtube - Formula 1 2020 dashboard</h3>
-											<p>Built an end-to-end data pipeline using Azure Databricks, Azure Data Factory, and Power BI to transform raw Formula 1 race data into interactive dashboards. Automated data ingestion, cleaning, and visualization to uncover insights on driver and team performance.</p>
-										</header>
-									</article>
-									<article class="item">
-										<a href="https://youtu.be/bv87PutHbT8?si=rIG1z3aJYciHGwUa" class="image fit"><img src="images/youtube1.jpg" alt="" /></a>
-										<header>
-											<h3>Youtube Video - COVID-19 Analysis</h3>
-											<p>In this video, I built an end-to-end data analytics project using real COVID-19 data (EU & UK). Watch how I use Azure Data Factory, Databricks (PySpark), Azure DevOps, and Power BI to create a fully automated data pipeline — from raw data to interactive dashboards.</p>
-										</header>
-									</article>
-									<article class="item">
-										<a href="https://1drv.ms/x/s!AjoZAmb8XiYieBsZ_GubMgfkdXQ?e=lDp4KP" class="image fit"><img src="images/w.JPG" alt="" /></a>
-										<header>
-											<h3>EXCEL - Bike Sales Analysis</h3>
-											<p>In this project, I evaluated the bike sales data to understand different factors that are considered by the customers before making a purchase decision.
+        </header>
+    </article>
+    <!-- 1.1 Power BI- Spotify Stream Analysis -->
+    <article class="item">
+        <a href="https://app.powerbi.com/view?r=eyJrIjoiOGQ4YmEyMDctZjI5OS00ZDY5LWIyYWQtODIwOTNiNmU5YjkxIiwidCI6IjdmMTJjNzRjLWU0ZGYtNDU0Ny05MjVlLTA3ODIxOWM0YWYyNyJ9" class="image fit"><img src="images/sporty.png" alt="" /></a>
+        <header>
+            <h3>Power BI- Spotify Stream Analysis</h3>
+            <p>This dashboard shows the top streamed songs, average streams per year, Top songs vs. Average, and the percentage Energy, providing a clear view of listening trends, identifying audience engagement patterns, and showing how energy levels affect overall streaming performance.</p>
+        </header>
+    </article>
+	 <!-- 1.2 Power BI- Product Analysis -->
+    <article class="item">
+        <a href="https://app.powerbi.com/view?r=eyJrIjoiYmQ5Njc4ZDQtMTE0YS00ZmI3LWEzZjYtNjY4MTVjOTk4YmVlIiwidCI6IjdmMTJjNzRjLWU0ZGYtNDU0Ny05MjVlLTA3ODIxOWM0YWYyNyJ9" class="image fit"><img src="images/product.png" alt="" /></a>
+        <header>
+            <h3>Power BI- Product Analysis</h3>
+            <p>The Analysis shows the percentage and sum total of all the products that was Lost, Delivered, Returned and Back Ordered in 2020.
+It shows the trend of these products by Order status and by Product Line and it also shows the grand total percentage of each Product</p>
+        </header>
+    </article>
+    <!-- 2. Power BI - Energy Analysis -->
+    <article class="item">
+        <a href="https://app.powerbi.com/view?r=eyJrIjoiYjc3NzJiNjAtOGNkYi00MmMzLWE4YWQtYTNhNDQzYTg2MmU3IiwidCI6IjdmMTJjNzRjLWU0ZGYtNDU0Ny05MjVlLTA3ODIxOWM0YWYyNyJ9" class="image fit"><img src="images/ENERGY.png" alt="" /></a>
+        <header>
+            <h3>Power BI- Energy Analysis</h3>
+            <p>It gives managers a quick summary of total costs, energy efficiency, and C02 emissions at the top. The rest of the dashboard highlights the biggest problem areas (assets wasting the most energy) and confirms that improving efficiency also saves money over time.</p>
+        </header>
+    </article>
+
+    <!-- 3. PowerBI – Formula 1 2020 Dashboard (Power BI) -->
+    <article class="item">
+        <a href="https://app.powerbi.com/view?r=eyJrIjoiMDljM2FjNmItZmI4Yy00OTliLThiNTAtZmEzOTM5Njg2MzEwIiwidCI6IjdmMTJjNzRjLWU0ZGYtNDU0Ny05MjVlLTA3ODIxOWM0YWYyNyJ9" class="image fit"><img src="images/top10.png" alt="" /></a>
+        <header>
+            <h3>PowerBI - Formula 1 2020 dashboard</h3>
+            <p>This dashboard presents the results of the Formula 1 2020 Abu Dhabi Grand Prix, featuring data from the race, practice sessions, and qualifications. Users can filter by session type to explore driver performance, lap times, and standings in detail.</p>
+        </header>
+    </article>
+
+    <!-- 4. Youtube – Formula 1 2020 Dashboard -->
+    <article class="item">
+        <a href="https://youtu.be/2M-A26D_1wY" class="image fit"><img src="images/top11.jpg" alt="" /></a>
+        <header>
+            <h3>Youtube - Formula 1 2020 dashboard</h3>
+            <p>Built an end-to-end data pipeline using Azure Databricks, Azure Data Factory, and Power BI to transform raw Formula 1 race data into interactive dashboards. Automated data ingestion, cleaning, and visualization to uncover insights on driver and team performance.</p>
+        </header>
+    </article>
+
+    <!-- 5. PowerBI - Sales Performance Analysis -->
+    <article class="item">
+        <a href="https://app.powerbi.com/view?r=eyJrIjoiOGMxZWM1YmItMDkwMC00NTdmLTkyZWUtZWIyY2ZkNTRhZDc2IiwidCI6IjdmMTJjNzRjLWU0ZGYtNDU0Ny05MjVlLTA3ODIxOWM0YWYyNyJ9" class="image fit"><img src="images/2.png" alt="" /></a>
+        <header>
+            <h3>PowerBI - Sales performance Analysis</h3>
+            <p>This Power BI project provides a comprehensive, interactive dashboard with five key views: Sales, Marketing, Finance, Supply Chain, and Executive Overview. Each view delivers targeted insights to its respective business function, enabling data-driven decision-making. </p>
+        </header>
+    </article>
+
+    <!-- 6. PowerBI – COVID-19 Trends Analysis -->
+    <article class="item">
+        <a href="https://app.powerbi.com/view?r=eyJrIjoiZjc0MDcwYmUtMjFlYi00MGVjLWJmZmUtMWZhNDczY2U1ZDg3IiwidCI6IjdmMTJjNzRjLWU0ZGYtNDU0Ny05MjVlLTA3ODIxOWM0YWYyNyJ9" class="image fit"><img src="images/neeeww1.png" alt="" /></a>
+        <header>
+            <h3>PowerBI - COVID-19 Trends Analysis</h3>
+            <p>This dashboard visualizes the COVID-19 trend across EU countries in 2020, highlighting total confirmed cases and deaths. It allows users to filter data by country to compare trends and analyze the pandemic’s impact across regions.</p>
+        </header>
+    </article>
+
+    <!-- 7. Youtube Video – COVID-19 Analysis -->
+    <article class="item">
+        <a href="https://youtu.be/bv87PutHbT8?si=rIG1z3aJYciHGwUa" class="image fit"><img src="images/youtube1.jpg" alt="" /></a>
+        <header>
+            <h3>Youtube Video - COVID-19 Analysis</h3>
+            <p>In this video, I built an end-to-end data analytics project using real COVID-19 data (EU & UK). Watch how I use Azure Data Factory, Databricks (PySpark), Azure DevOps, and Power BI to create a fully automated data pipeline — from raw data to interactive dashboards.</p>
+        </header>
+    </article>
+
+    <!-- 8. PowerBI – PWC Customer Retention -->
+    <article class="item">
+        <a href="https://app.powerbi.com/view?r=eyJrIjoiYWRiMGU0OTktOTM0Ni00MDYwLTkwYzgtMDZhNWVkYzM3ZDM2IiwidCI6ImRmODY3OWNkLWE4MGUtNDVkOC05OWFjLWM4M2VkN2ZmOTVhMCJ9" class="image fit"><img src="images/power2.png" alt="" /></a>
+        <header>
+            <h3>PowerBI - PWC customer Retention</h3>
+            <p>The data provided by PWC company, here I checked for the trend on how people are leaving the product for other products. The dashboard displays the churn percentage, gender analysis, total number of customers by payment method, online security status, and more.</p>
+        </header>
+    </article>
+
+    <!-- 9. SQL Project -->
+    <article class="item">
+        <a href="https://github.com/Temple712/My-projects/blob/main/SQProject.sql" class="image fit"><img src="images/pic03.png" alt="" /></a>
+        <header>
+            <h3>SQL Project</h3>
+            <p>Developed SQL queries to analyze film, customer, and sales data — including category counts, revenue by location, customer lifetime value, and trends like average Sunday revenue — showcasing skills in joins, aggregations, filtering, and subqueries.</p>
+        </header>
+    </article>
+
+    <!-- 10. Excel – Bike Sales Analysis -->
+    <article class="item">
+        <a href="https://1drv.ms/x/s!AjoZAmb8XiYieBsZ_GubMgfkdXQ?e=lDp4KP" class="image fit"><img src="images/w.JPG" alt="" /></a>
+        <header>
+            <h3>EXCEL - Bike Sales Analysis</h3>
+            <p>In this project, I evaluated the bike sales data to understand different factors that are considered by the customers before making a purchase decision.
 The analysis involved data visualization, trend identification, and deriving actionable business insights to support sales strategy.</p>
-										</header>
-									</article>
-								</div>
-								<div class="col-4 col-12-mobile">
-									
-									<article class="item">
-										<a href="https://app.powerbi.com/view?r=eyJrIjoiYjc3NzJiNjAtOGNkYi00MmMzLWE4YWQtYTNhNDQzYTg2MmU3IiwidCI6IjdmMTJjNzRjLWU0ZGYtNDU0Ny05MjVlLTA3ODIxOWM0YWYyNyJ9" class="image fit"><img src="images/ENERGY.png" alt="" /></a>
-										<header>
-											<h3>Power BI- Energy Analysis</h3>
-											<p>It gives managers a quick summary of total costs, energy efficiency, and C02 emissions at the top. The rest of the dashboard highlights the biggest problem areas (assets wasting the most energy) and confirms that improving efficiency also saves money over time.</p>
-										</header>
-									</article>
-									<article class="item">
-										<a href="https://app.powerbi.com/view?r=eyJrIjoiOGMxZWM1YmItMDkwMC00NTdmLTkyZWUtZWIyY2ZkNTRhZDc2IiwidCI6IjdmMTJjNzRjLWU0ZGYtNDU0Ny05MjVlLTA3ODIxOWM0YWYyNyJ9" class="image fit"><img src="images/2.png" alt="" /></a>
-										<header>
-											<h3>PowerBI - Sales performance Analysis</h3>
-											<p>This Power BI project provides a comprehensive, interactive dashboard with five key views: Sales, Marketing, Finance, Supply Chain, and Executive Overview. Each view delivers targeted insights to its respective business function, enabling data-driven decision-making. </p>
-										</header>
-									</article>
-									<article class="item">
-										<a href="https://app.powerbi.com/view?r=eyJrIjoiYWRiMGU0OTktOTM0Ni00MDYwLTkwYzgtMDZhNWVkYzM3ZDM2IiwidCI6ImRmODY3OWNkLWE4MGUtNDVkOC05OWFjLWM4M2VkN2ZmOTVhMCJ9" class="image fit"><img src="images/power2.png" alt="" /></a>
-										<header>
-											<h3>PowerBI - PWC customer Retention</h3>
-											<p>The data provided by PWC company, here I checked for the trend on how people are leaving the product for other products. The dashboard displays the churn percentage, gender analysis, total number of customers by payment method, online security status, and more.</p>
-										</header>
-									</article>
-									
-								</div>
-								<div class="col-4 col-12-mobile">
-									<article class="item">
-										<a href="https://app.powerbi.com/view?r=eyJrIjoiMDljM2FjNmItZmI4Yy00OTliLThiNTAtZmEzOTM5Njg2MzEwIiwidCI6IjdmMTJjNzRjLWU0ZGYtNDU0Ny05MjVlLTA3ODIxOWM0YWYyNyJ9" class="image fit"><img src="images/top10.png" alt="" /></a>
-										<header>
-											<h3>PowerBI - Formula 1 2020 dashboard</h3>
-											<p>This dashboard presents the results of the Formula 1 2020 Abu Dhabi Grand Prix, featuring data from the race, practice sessions, and qualifications. Users can filter by session type to explore driver performance, lap times, and standings in detail.</p>
-										</header>
-									</article>
-									<article class="item">
-										<a href="https://app.powerbi.com/view?r=eyJrIjoiZjc0MDcwYmUtMjFlYi00MGVjLWJmZmUtMWZhNDczY2U1ZDg3IiwidCI6IjdmMTJjNzRjLWU0ZGYtNDU0Ny05MjVlLTA3ODIxOWM0YWYyNyJ9" class="image fit"><img src="images/neeeww1.png" alt="" /></a>
-										<header>
-											<h3>PowerBI - COVID-19 Trends Analysis</h3>
-											<p>This dashboard visualizes the COVID-19 trend across EU countries in 2020, highlighting total confirmed cases and deaths. It allows users to filter data by country to compare trends and analyze the pandemic’s impact across regions.</p>
-										</header>
-									</article>
-									<article class="item">
-										<a href="https://github.com/Temple712/My-projects/blob/main/SQProject.sql" class="image fit"><img src="images/pic03.png" alt="" /></a>
-										<header>
-											<h3>SQL Project</h3>
-											<p>Developed SQL queries to analyze film, customer, and sales data — including category counts, revenue by location, customer lifetime value, and trends like average Sunday revenue — showcasing skills in joins, aggregations, filtering, and subqueries.</p>
-										</header>
-									</article>
+        </header>
+    </article>
+
+</div>
+
 									
 									
 									
